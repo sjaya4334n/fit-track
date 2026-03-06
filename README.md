@@ -7,10 +7,7 @@ This project is built using vanilla HTML, CSS, and JavaScript and focuses on pra
 ## Features
 - Add food items with calories consumed
 - Add workouts with calories burned
-- Automatic calculation of:
--- Total calories consumed
--- Total calories burned
--- Net calories
+- Automatic calculation of: Total calories consumed , Total caories burned ,  Net calories
 - Dynamic table updates without page refresh
 - Delete/edit entries
 - Automatic clearing of input fields
@@ -20,21 +17,21 @@ This project is built using vanilla HTML, CSS, and JavaScript and focuses on pra
 
 ## Dashboard
 - Displays a summary of:
--- Total calories consumed
--- Total calories burned
--- Net calorie balance
--- Status message
+ - Total calories consumed
+  - Total calories burned
+  - Net calorie balance
+  - Status message
 
 ## Food Entry
 - Allows users to add:
--- Food name
--- Calories consumed
+ - Food name
+ - Calories consumed
 
 ## Workout Entry
 - Allows users to add:
--- Exercise name
--- Duration
--- Calories burned
+ - Exercise name
+ - Duration
+ - Calories burned
 
 ## Progress Feedback
 Displays a dynamic message depending on the calorie balance.
@@ -44,6 +41,6 @@ Displays a dynamic message depending on the calorie balance.
 - CSS3 – Layout and styling
 - JavaScript (Vanilla) – Logic and DOM manipulation
 
-##Author
+## Author
 Jayaseelan
-Frontend Developer (Learning Phase)
+- Frontend Developer (Learning Phase)
