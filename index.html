@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fit_track</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+    <header>
+        <h1>FIT-TRACK</h1>
+    </header>
+
+    <main>
+        <h2>Welcome to Fit Track, your personal fitness companion!</h2>
+
+        <p class="date"></p>
+
+        <section class="summary">
+
+        <div class="one">
+             <div class="box">
+                 <p class="in">Calories consumed </p>
+            <p id="totalconsumed" class="out">0000</p></div>
+             <div class="box">
+                <p class="in">Calories burned </p>
+            <p id="totalburned" class="out">0000</p></div>
+        </div>
+
+        <div class="two">
+             <div class="box">
+                <p class="in">Net calories </p>
+            <p id="netcalories" class="out">0000</p></div>
+             <div class="box">
+                 <p class="in">Progress section</p>
+            <p id="progress" class="out">----</p></div>
+        </div>
+
+        </section>
+
+
+        <div class="table">
+        <section class="work">
+            <h2>Log Workout</h2>
+            <form>
+                <input id="work" type="text" placeholder="Workout Name">
+                <input id="duration" type="number" placeholder="Duration (minutes)">
+                <input id="burned" type="number" placeholder="Calories Burned">
+                <p id="error1" style="color:black;"></p>
+                <button type="button" onclick="addworkout()">Add Workout</button>
+            </form>
+        </section>
+
+        <section>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Workout Name</th>
+                        <th>Duration (minutes)</th>
+                        <th>Calories Burned</th>
+                        <th class="deletecell"></th>
+                    </tr>
+                </thead>
+                <tbody id="worktable">
+                    
+                </tbody>
+            </table>
+        </section></div>
+
+<div class="table">
+        <section class="food">
+            <h2>Log Food Intake</h2>
+            <form id="form2">
+                <input id="food" type="text" placeholder="Food Name">
+                <input id="consumed"  type="number" placeholder="Calories Consumed">
+                <p id="error2" style="color:black;"></p>
+                <button type="button" onclick="addfood()">Add Food</button>
+                </form>
+        </section>
+
+         <section>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Food Name</th>
+                            <th>Calories Consumed</th>
+                            <th class="deletecell"></th>    
+                        </tr>
+                    </thead>
+                    <tbody id="foodtable">
+                        
+                    </tbody>
+                </table>
+                </section>
+</div>
+    </main>
+
+     <footer>
+        <p>&copy; 2024 Fit Track. All rights reserved.</p>
+    </footer>
+
+<script src="node.js"></script>
+
+</body>
+</html>
